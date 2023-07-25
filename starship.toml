@@ -85,7 +85,10 @@ truncate_to_repo = false
 truncation_symbol = "…/"
 
 [directory.substitutions]
+"C:/repos" = "\uf1c0"
 "C:/Repos" = "\uf1c0"
+"~/repos" = "\uf1c0"
+"~/Repos" = "\uf1c0"
 
 [fill]
 symbol = " "
