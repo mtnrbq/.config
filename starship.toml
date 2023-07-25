@@ -1,0 +1,109 @@
+add_newline = false
+
+format = """
+$shell\
+$username\
+$hostname\
+$shlvl\
+$singularity\
+$kubernetes\
+$directory\
+$vcsh\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$hg_branch\
+$docker_context\
+$package\
+$cmake\
+$cobol\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$golang\
+$helm\
+$java\
+$julia\
+$kotlin\
+$lua\
+$nim\
+$nodejs\
+$ocaml\
+$perl\
+$php\
+$pulumi\
+$purescript\
+$python\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$swift\
+$terraform\
+$vlang\
+$vagrant\
+$zig\
+$nix_shell\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$azure\
+$env_var\
+$crystal\
+$sudo\
+$cmd_duration\
+$jobs\
+$battery\
+$status$\
+fill\
+$custom\
+$conda\
+$time
+$character"""
+
+[python]
+disabled = true
+
+[shell]
+disabled = false
+powershell_indicator = "🗲"
+style = "red bold"
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[➜](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+
+[directory]
+truncate_to_repo = false
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"C:/Repos" = "\uf1c0"
+
+[fill]
+symbol = " "
+
+[custom.ros]
+disabled = false
+ignore_timeout = true
+when = 'gi Env:ROS_DISTRO'
+style = "bold blue"
+format = '[{x}]($style)'
+
+[conda]
+ignore_base = false
+style = "bold blue"
+format = '[\[$environment\]]($style)'
+
+[time]
+disabled = false
+style = "bold green"
+format = '[$time]($style) '
+time_format = "%T"
