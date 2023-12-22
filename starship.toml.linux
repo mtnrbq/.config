@@ -35,7 +35,6 @@ disabled = false
 style = "bold red"
 powershell_indicator = "🗲"
 bash_indicator = "\uebca"
-style = "yellow bold"
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]                            # The name of the module we are configuring is "character"
