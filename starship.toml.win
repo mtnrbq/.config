@@ -59,7 +59,7 @@ format = '\[[⏱️ $duration]($style)\]'
 [conda]
 symbol = "🅒 "
 ignore_base = false
-style = "bright-black"
+style = "bold blue"
 format = '\[[$symbol$environment]($style)\]'
 
 [directory]
@@ -118,11 +118,6 @@ format = '\[[as $symbol]\]'
 
 [fill]
 symbol = " "
-
-[conda]
-ignore_base = false
-style = "bold blue"
-format = '[\[$environment\]]($style)'
 
 [time]
 disabled = false
