@@ -1,7 +1,6 @@
 add_newline = false
 
 format = """
-$shell\
 $username\
 $hostname\
 $kubernetes\
@@ -28,6 +27,7 @@ $status$\
 fill\
 $conda\
 $time
+$shell\
 $character"""
 
 [shell]
