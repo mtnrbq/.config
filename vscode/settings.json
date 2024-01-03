@@ -1,0 +1,31 @@
+{
+	"editor.fontFamily":
+		"Monaspace Neon Var, Hasklig Light, Monaco, monospace",
+	"editor.fontSize": 16,
+	"editor.fontWeight": "10",
+	"editor.fontLigatures": "'ss02', 'ss03', 'ss04', 'ss05', 'calt', 'dlig'",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "comment",
+				"settings": { "fontStyle": "italic", "foreground": "#01a009" }
+			},
+			{
+				"scope": "storage,entity,variable",
+				"settings": { "fontStyle": "" }
+			},
+			{
+				"scope": "string.quoted.double.json",
+				"settings": {"foreground": "#f79a75"}
+			}
+		]
+	},
+	"terminal.integrated.fontFamily":
+		"Monaspace Neon Var, Hasklig Light, Monaco, monospace",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontWeight": 450,
+	"terminal.integrated.fontWeightBold": 800,
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.colorTheme": "Visual Studio Dark",
+	"editor.tabSize": 2
+}

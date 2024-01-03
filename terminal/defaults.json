@@ -1,0 +1,20 @@
+{
+  "defaults": {
+    "font": {
+      "face": "MonaspiceNe Nerd Font",
+      "size": 12,
+      "features": {
+        "ss02": 1,
+        "ss03": 1,
+        "ss04": 1,
+        "ss05": 1,
+        "calt": 1,
+        "dlig": 1,
+        "liga": 0
+      },
+      "axes": {
+        "wght": 10.0
+      }
+    }
+  }
+}
