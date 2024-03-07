@@ -22,7 +22,6 @@ $env_var\
 $sudo\
 $cmd_duration\
 $jobs\
-$memory_usage\
 $status$\
 fill\
 $conda\
