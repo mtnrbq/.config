@@ -46,7 +46,10 @@ error_symbol = "❌"
 disabled = false
 symbol = "󰠅 "
 style = "blue bold"
-format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
+format = '\[[$symbol($subscription)]($style)\]'
+
+[azure.subscription_aliases]
+nonprod-RobertMawston = 'np-robmaw'
 
 [cmake]
 format = '\[[$symbol($version)]($style)\]'
