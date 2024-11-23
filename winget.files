@@ -1,0 +1,254 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2024-11-23T13:08:06.221-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "CoreyButler.NVMforWindows"
+				},
+				{
+					"PackageIdentifier" : "Ablaze.Floorp"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop"
+				},
+				{
+					"PackageIdentifier" : "Mozilla.Firefox.DeveloperEdition.en-GB"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "ImageMagick.ImageMagick"
+				},
+				{
+					"PackageIdentifier" : "KiCad.KiCad"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Office"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OneDrive"
+				},
+				{
+					"PackageIdentifier" : "UB-Mannheim.TesseractOCR"
+				},
+				{
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.msodbcsql.17"
+				},
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "Starship.Starship"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019"
+				},
+				{
+					"PackageIdentifier" : "Kitware.CMake"
+				},
+				{
+					"PackageIdentifier" : "Apple.Bonjour"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AzureCLI"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WebDeploy"
+				},
+				{
+					"PackageIdentifier" : "GoLang.Go"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Azd"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.GeForceExperience"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.PhysX"
+				},
+				{
+					"PackageIdentifier" : "gerardog.gsudo"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
+				},
+				{
+					"PackageIdentifier" : "StrawberryPerl.StrawberryPerl"
+				},
+				{
+					"PackageIdentifier" : "dorssel.usbipd-win"
+				},
+				{
+					"PackageIdentifier" : "RedHat.Podman"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OpenJDK.11"
+				},
+				{
+					"PackageIdentifier" : "Adobe.CreativeCloud"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome.EXE"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.RustRover.EAP"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Enterprise"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.UninstallTool"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
+				},
+				{
+					"PackageIdentifier" : "Chocolatey.Chocolatey"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams.Classic"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.6"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.RemoteHelp"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000"
+				},
+				{
+					"PackageIdentifier" : "Bitwarden.Bitwarden"
+				},
+				{
+					"PackageIdentifier" : "OpenWhisperSystems.Signal"
+				},
+				{
+					"PackageIdentifier" : "Kubernetes.kubectl"
+				},
+				{
+					"PackageIdentifier" : "ElementLabs.LMStudio"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Azure.AZCopy.10"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.NuGet"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.SBOMTool"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.devtunnel"
+				},
+				{
+					"PackageIdentifier" : "Anaconda.Miniconda3"
+				},
+				{
+					"PackageIdentifier" : "ORASProject.ORAS"
+				},
+				{
+					"PackageIdentifier" : "Postman.Postman"
+				},
+				{
+					"PackageIdentifier" : "Rustlang.Rustup"
+				},
+				{
+					"PackageIdentifier" : "RedHat.Podman-Desktop"
+				},
+				{
+					"PackageIdentifier" : "reMarkable.reMarkableCompanionApp"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Azure.StorageExplorer"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "Canonical.Ubuntu.2204"
+				},
+				{
+					"PackageIdentifier" : "Canonical.Ubuntu.2404"
+				},
+				{
+					"PackageIdentifier" : "Canonical.Ubuntu"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "TheBrowserCompany.Arc"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.8.1911"
+}
