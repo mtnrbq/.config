@@ -76,7 +76,7 @@ truncation_symbol = "…/"
 "~/Repos" = "\uf1c0"
 
 [docker_context]
-symbol = " "
+symbol = " "
 style = "bold blue"
 format = '\[[$symbol$context]($style)\]'
 
@@ -84,7 +84,7 @@ format = '\[[$symbol$context]($style)\]'
 format = '\[[$symbol($version)(🎯 $tfm)]($style)\]'
 
 [git_branch]
-symbol = " "
+symbol = " "
 style = "bright-black"
 format = '\[[$symbol$branch]($style)\]'
 
@@ -103,7 +103,7 @@ symbol = "󰍛 "
 format = '\[$symbol[$ram_pct( | $swap)]($style)\]'
 
 [nodejs]
-symbol = " "
+symbol = " "
 format = '\[[$symbol($version)]($style)\]'
 
 [package]
