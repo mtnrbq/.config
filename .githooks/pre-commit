@@ -21,7 +21,9 @@ current_name=$(git config user.name || true)
 current_email=$(git config user.email || true)
 
 if [ "$current_name" != "$name" ] || [ "$current_email" != "$email" ]; then
-    echo "pre-commit: setting commit identity to gh account '$login'."
     git config user.name "$name"
     git config user.email "$email"
+    echo "pre-commit: commit identity corrected to gh account '$login' ($email)." >&2
+    echo "pre-commit: re-run your commit so it uses the updated identity." >&2
+    exit 1
 fi

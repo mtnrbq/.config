@@ -34,4 +34,9 @@ if (Get-Command gh -ErrorAction SilentlyContinue) {
 	Write-Host 'gh not found; skipping git credential setup.'
 }
 
+if (Get-Command git -ErrorAction SilentlyContinue) {
+	Write-Host 'Pointing git at tracked .githooks directory...'
+	git -C $PSScriptRoot config core.hooksPath .githooks
+}
+
 Write-Host 'Done.'
