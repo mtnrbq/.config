@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Force git user.name/user.email to match the active gh auth identity.
+set -euo pipefail
+
+if ! command -v gh >/dev/null 2>&1; then
+    echo "pre-commit: gh CLI not found; cannot verify identity." >&2
+    exit 1
+fi
+
+if ! gh auth status >/dev/null 2>&1; then
+    echo "pre-commit: gh is not authenticated. Run 'gh auth login'." >&2
+    exit 1
+fi
+
+login=$(gh api user --jq '.login')
+id=$(gh api user --jq '.id')
+name=$(gh api user --jq '.name // .login')
+email="${id}+${login}@users.noreply.github.com"
+
+current_name=$(git config user.name || true)
+current_email=$(git config user.email || true)
+
+if [ "$current_name" != "$name" ] || [ "$current_email" != "$email" ]; then
+    echo "pre-commit: setting commit identity to gh account '$login'."
+    git config user.name "$name"
+    git config user.email "$email"
+fi
