@@ -9,6 +9,7 @@ $packages = @(
 	'Microsoft.VisualStudioCode'
 	'Starship.Starship'
     'CoreyButler.NVMforWindows'
+    'astral-sh.uv'
 )
 
 foreach ($package in $packages) {
@@ -37,6 +38,18 @@ if (Get-Command gh -ErrorAction SilentlyContinue) {
 if (Get-Command git -ErrorAction SilentlyContinue) {
 	Write-Host 'Pointing git at tracked .githooks directory...'
 	git -C $PSScriptRoot config core.hooksPath .githooks
+}
+
+if (Get-Command uv -ErrorAction SilentlyContinue) {
+	$globalVenv = Join-Path $env:USERPROFILE '.venvs\global'
+	if (-not (Test-Path (Join-Path $globalVenv 'Scripts\Activate.ps1'))) {
+		Write-Host 'Creating global uv venv at ~\.venvs\global...'
+		uv venv $globalVenv
+	} else {
+		Write-Host 'Global uv venv already exists.'
+	}
+} else {
+	Write-Host 'uv not found; skipping global venv creation.'
 }
 
 Write-Host 'Done.'
