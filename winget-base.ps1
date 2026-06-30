@@ -52,4 +52,18 @@ if (Get-Command uv -ErrorAction SilentlyContinue) {
 	Write-Host 'uv not found; skipping global venv creation.'
 }
 
+if (Get-Command nvm -ErrorAction SilentlyContinue) {
+	$existingNode = Get-Command node -ErrorAction SilentlyContinue
+	if ($existingNode) {
+		Write-Host "Node already on PATH at $($existingNode.Source); skipping nvm install lts."
+	} else {
+		Write-Host 'Installing latest Node LTS via nvm...'
+		nvm install lts
+		# nvm-windows >= 1.2 supports the `lts` alias for `nvm use`.
+		nvm use lts
+	}
+} else {
+	Write-Host 'nvm not found; skipping Node LTS install. (Re-open the shell after installing NVMforWindows.)'
+}
+
 Write-Host 'Done.'
